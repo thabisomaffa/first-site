@@ -4,23 +4,31 @@ selector {
 
 body {
 color: rgb(65,75,86);
-font-family: arial;
+
 margin: 0px;
+background-color: black;
+
 }
 div {
-  min-height: 50vh;
-  width: 50vw
+  min-height: 20vh;
+  width: 100vw;
 }
-h1, h2 {
-  text-align: center;
-}
+
 h1 {
-  color: purple;
+  text-align: center;
+  color: Purple;
   font-size: 5em;
+  font-family: fantasy;
 }
 h2 {
-  font-size: 2.5em;
-}
+  text-align: left;
+  font-size: 2.5em}
+  h3 {
+    text-align: left;
+    font-size: 2em
+  }
+h4{
+font-size: 1.25em}
 img {
   display: flex;
   margin: 0 auto;
@@ -28,7 +36,12 @@ img {
   border-radius: 130px;
 }
 p {
-  width: 50%;
-  margin: 10vh 10vw;
-  font-size: 2em;
+font-family: arial;
+  font-size: 1.20em;
+
+}
+ul{
+  list-style:;
+  padding: 2;
+  font-size: 1.5em;
 }
